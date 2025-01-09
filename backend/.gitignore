@@ -1,0 +1,28 @@
+# Node.js modülleri
+node_modules/
+
+# Çıkış (Build) dosyaları
+dist/
+build/
+
+# Çevre değişkenleri ve hassas bilgiler
+.env
+
+# Log dosyaları
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# IDE ve geliştirme araçları dosyaları
+.vscode/
+.idea/
+*.iml
+
+# Diğer
+coverage/
