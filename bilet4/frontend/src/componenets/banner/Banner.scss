@@ -1,0 +1,29 @@
+.img-banner{
+    display: flex;
+    gap: 30px;
+    margin: 100px;
+    .card1{
+background-image: url('https://preview.colorlib.com/theme/estore/assets/img/categori/cat1.jpg');
+height: 300px;
+width: 480px;
+text-align: center;  
+padding-top: 100px;
+padding-left: 200px;  }
+    .card2{
+        background-image: url('https://preview.colorlib.com/theme/estore/assets/img/categori/cat2.jpg');
+        height: 300px;
+        width: 480px;
+text-align: center;  
+padding-top: 100px;
+padding-left: 200px;
+
+            }
+            .card3{
+                background-image: url('https://preview.colorlib.com/theme/estore/assets/img/categori/cat3.jpg');
+                height: 300px;
+                width: 480px;
+text-align: center;  
+padding-top: 100px;
+padding-left: 200px;
+                    }
+}

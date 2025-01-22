@@ -1,0 +1,100 @@
+$breakpoints: (
+  small: 576px,
+  medium: 768px,
+  large: 992px
+);
+
+.nav-container{
+    background-color: transparent;
+    .nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+            height: 100px;
+
+        .nav-logo{
+letter-spacing: 5px;
+font-size: 14px;
+        }
+        .nav-link{
+            ul{
+            display: flex;
+            gap:25px;
+            a{
+                color: black;
+                font-size: 18px;
+            }
+            }
+        }
+        .nav-icon{
+            ul{
+
+                display: flex;
+                gap: 20px;
+                a{
+                    font-size: 20px;
+                    color: black;
+                }
+            }
+        }
+    }
+@media (max-width: map-get($breakpoints , medium)){
+    .nav{
+        .nav-logo{
+            font-size: 10px;
+        }
+        .nav-link{
+            ul{
+                display: flex;
+                gap:20px;
+                a{
+                    font-size: 13px;
+                    
+                }
+            }
+        }
+        .nav-icon{
+            ul{
+
+                display: flex;
+                gap: 15px;
+                a{
+                    font-size: 16px;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+@media (max-width: map-get($breakpoints , small)){
+    .nav{
+        .nav-logo{
+            font-size: 8px;
+        }
+        .nav-link{
+            ul{
+                display: flex;
+                flex-direction: column;
+                gap:4px;
+                a{
+                    font-size: 10px;
+                    
+                }
+            }
+        }
+        .nav-icon{
+            ul{
+
+                display: flex;
+                gap: 12px;
+                a{
+                    font-size: 12px;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+
+}

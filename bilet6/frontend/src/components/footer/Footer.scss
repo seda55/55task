@@ -1,0 +1,16 @@
+.footer-container{
+    .container{
+display: flex;
+flex-direction: column;
+gap: 150px;
+        .footerust{
+            display: flex;
+gap: 100px;
+        }
+        .footeralt{
+            padding-left: 300px;
+
+        }
+    }
+    
+}

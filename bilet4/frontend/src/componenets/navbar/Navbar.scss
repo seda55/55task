@@ -1,0 +1,28 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    // position: fixed;
+    width: 100%;
+    background-color: white;
+    .nav{
+        display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    }
+    .nav-route{
+        display: flex;
+        gap: 30px;
+        a{
+            color: black;
+        font-size: 17px;
+        }
+    }
+    .nav-icon{
+        a{
+            color: black;
+        }
+    }
+}

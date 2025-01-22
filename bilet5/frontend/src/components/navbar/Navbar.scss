@@ -1,0 +1,29 @@
+.nav-container{
+    height: 100px;
+     align-items: center;
+     display: flex;
+    .navs{
+        
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        .nav-link{
+            ul{
+                display: flex;
+            gap: 60px;
+            a{
+                color: black;
+                font-size: 18px;
+            }
+            }
+        }
+        .nav-icon{
+            display: flex;
+            gap: 25px;
+            a{
+                font-size: 20px;
+                color: black;
+            }
+        }
+    }
+}

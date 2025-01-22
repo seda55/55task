@@ -1,0 +1,44 @@
+.leader-container {
+    .title {
+        text-align: center;
+        margin: 30px 0;
+    }
+    ul {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        padding: 0;
+        li {
+            list-style: none;
+            a {
+                text-decoration: none;
+                color: black;
+                font-size: 22px;
+                transition: color 0.3s ease;
+                &:hover {
+                    color: #007BFF; // Change to your theme's accent color
+                }
+            }
+        }
+    }
+    .leader-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        text-align: center;
+        .leader-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            max-width: 350px;
+            img {
+                width: 100%;
+                max-width: 350px;
+                height: auto;
+                border-radius: 50%; // Optional for circular images
+            }
+        }
+    }
+}
