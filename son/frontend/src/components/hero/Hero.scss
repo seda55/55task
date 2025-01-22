@@ -1,0 +1,22 @@
+.hero-container{
+    background-color: aliceblue;
+    .container{
+        display: flex;
+        padding-left: 200px;
+        
+        .hero-text{
+            padding-top: 300px;
+            display: flex;
+            flex-direction: column;
+            width: 600px;
+            h1{
+                font-size: 60px;
+            }
+        }
+        .hero-image{
+          img{
+            height: 900px;
+          }
+        }
+    }
+}
